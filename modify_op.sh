@@ -6,6 +6,7 @@ dst_dir=/data/openpilot
 mv $dst_dir/.git $dst_dir/.git.orig
 rsync -alrv .git $dst_dir
 
+cp -v updated.py $dst_dir/selfdrive
 cp -v process_config.py $dst_dir/selfdrive/manager
 cp -v thermald.py $dst_dir/selfdrive/thermald
 cp -v car_helpers.py $dst_dir/selfdrive/car
