@@ -1,7 +1,7 @@
 #!/bin/bash
 
-dst_dir=/Users/huiwang/projects/external/fake_data/openpilot-comma3
-#dst_dir=/data/openpilot
+#dst_dir=/Users/huiwang/projects/external/fake_data/openpilot-comma3
+dst_dir=/data/openpilot
 
 cp -v process_config.py $dst_dir/selfdrive/manager
 cp -v car_helpers.py $dst_dir/selfdrive/car
